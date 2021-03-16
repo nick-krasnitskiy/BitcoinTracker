@@ -85,6 +85,11 @@
                             <constraint firstItem="BZv-cB-tID" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="gpm-yE-k6b"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bitcoinLabel" destination="d7z-Uu-IFl" id="nVp-yt-Hg3"/>
+                        <outlet property="currencyLabel" destination="Xk6-dg-CxU" id="aii-fi-FXh"/>
+                        <outlet property="currencyPicker" destination="oy2-Gy-TkJ" id="k2W-7x-kKl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
