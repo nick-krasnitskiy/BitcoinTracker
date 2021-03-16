@@ -28,10 +28,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7dV-gA-my4" userLabel="CoinView">
-                                <rect key="frame" x="67.666666666666686" y="144" width="293" height="80"/>
+                                <rect key="frame" x="73.333333333333343" y="144" width="281.33333333333326" height="80"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="53" translatesAutoresizingMaskIntoConstraints="NO" id="RqL-fV-x1Q">
-                                        <rect key="frame" x="0.0" y="0.0" width="293" height="80"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="281.33333333333331" height="80"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bitcoinsign.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="BTD-c6-yzd">
                                                 <rect key="frame" x="0.0" y="1" width="80" height="78.666666666666671"/>
@@ -41,17 +41,17 @@
                                                     <constraint firstAttribute="height" constant="80" id="aPr-nS-h5O"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7z-Uu-IFl">
-                                                <rect key="frame" x="133" y="0.0" width="27" height="80"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="d7z-Uu-IFl">
+                                                <rect key="frame" x="133" y="0.0" width="15.333333333333343" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="wTv-6M-nJz"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USD" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xk6-dg-CxU">
-                                                <rect key="frame" x="213" y="0.0" width="80" height="80"/>
+                                                <rect key="frame" x="201.33333333333337" y="0.0" width="80" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="0TC-o3-mhQ"/>
                                                     <constraint firstAttribute="height" constant="80" id="gf0-y5-d1n"/>
@@ -99,10 +99,10 @@
     <resources>
         <image name="bitcoinsign.circle.fill" catalog="system" width="128" height="121"/>
         <namedColor name="BackgroundColor">
-            <color red="0.08295702992491974" green="0.76977970521830552" blue="0.80586870026525204" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.082999996840953827" green="0.76999998092651367" blue="0.8059999942779541" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Tint Color">
-            <color red="0.066807218272336974" green="0.17972894562334218" blue="0.17524768827338297" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.067000001668930054" green="0.18000000715255737" blue="0.17499999701976776" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="tertiaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
