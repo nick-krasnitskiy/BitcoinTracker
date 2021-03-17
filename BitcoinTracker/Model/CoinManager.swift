@@ -21,15 +21,12 @@ struct CoinManager {
     var delegate: CoinManagerDelegate?
     
     func getCoinPrice(for currency: String) {
+        
         let urlString = "\(baseURL)/\(currency)?apikey=\(apiKey)"
         
-        // 1. Create a URL
         if let url = URL(string: urlString) {
             
-            // 2. Create a URLSession
             let session = URLSession(configuration: .default)
-            
-            // 3. Give the session a task
             let task = session.dataTask(with: url) { (data, response, error) in
                 if error != nil {
                     self.delegate?.didFailWithError(error: error!)
@@ -43,14 +40,12 @@ struct CoinManager {
                     }
                 }
             }
-            
-            // 4. Start the task
             task.resume()
-    
         }
     }
     
     func parseJSON(_ data: Data) -> Double? {
+        
         let decoder = JSONDecoder()
         
         do {
